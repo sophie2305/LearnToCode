@@ -16,7 +16,24 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 
 Note: for this kata `y` isn't considered a vowel.
 
-## Problem 2 (6 kyu)
+## Problem 2 (7 kyu)
+
+Link to Kata --> [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132)
+
+### Overview
+
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+If the function is passed a valid PIN string, return true, else return false.
+
+Examples
+```
+"1234"   -->  true
+"12345"  -->  false
+"a234"   -->  false
+```
+
+## Problem 3 (6 kyu)
 
 Link to Kata --> [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003)
 
@@ -31,21 +48,7 @@ to_camel_case("the-stealth-warrior") # returns "theStealthWarrior"
 to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
 ```
 
-# Problem 3 (5 kyu)
-
-Link to Kata --> [Extract the domain name from a URL](https://www.codewars.com/kata/514a024011ea4fb54200004b)
-
-### Overview
-
-Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For example:
-
-```
-domain_name("http://github.com/carbonfive/raygun") == "github" 
-domain_name("http://www.zombie-bites.com") == "zombie-bites"
-domain_name("https://www.cnet.com") == "cnet"
-```
-
-# Bonus Problem (5 kyu)
+## Bonus Problem (5 kyu)
 
 Link to Kata --> [Regex Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811)
 
